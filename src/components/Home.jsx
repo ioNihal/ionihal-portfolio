@@ -6,7 +6,7 @@ import '../styles/Home.css';
 
 function Home() {
 
-    const mainArt = 'src/assets/iamDevArt.png';
+    
 
     return (
         <>
