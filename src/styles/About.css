@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+section.about-sec {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: none !important;
+}
+
+.about-name-con {
+    height: 15vh;
+    width: 90vw;
+    margin: 2rem auto;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+}
+
+.text-name-bg {
+    font-family: 'Londrina Outline';
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 10px;
+    opacity: 0.2;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-name-fg {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-name-dev {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-img-con {
+    height: auto;
+    width: 90vw;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.about-img {
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+.about-para-con {
+    height: 100%;
+    width: 40%;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about-para-con p,
+.about-para-con span {
+    margin-left: 2rem;
+    text-align: justify;
+}
+
+.about-para-con span {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+
+    .about-name-con {
+        margin: 1rem auto;
+        position: relative;
+        user-select: none;
+        cursor: pointer;
+    }
+
+    .text-name-bg {
+        font-size: 2.5rem;
+        letter-spacing: 5px;
+    }
+
+    .text-name-fg,
+    .text-name-dev {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .about-img-con {
+        margin: 0.5rem auto 3rem auto;
+        flex-direction: column;
+    }
+
+    .about-img {
+        height: auto;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .about-para-con {
+        width: 90%;
+        margin-right: 0;
+        margin-top: 2rem;
+    }
+
+    .about-para-con p,
+    .about-para-con span {
+        margin: 0.5rem auto;
+        text-align: center;
+    }
+
+    .about-para-con span {
+        width: 20vw;
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 768px) {
+    .text-name-bg {
+        font-size: 3.5rem;
+        letter-spacing: 7px;
+    }
+
+    .text-name-fg,
+    .text-name-dev {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    .about-img {
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+    .about-para-con {
+        width: 50%;
+        margin-right: 2rem;
+    }
+
+    .about-para-con p,
+    .about-para-con span {
+        margin-left: 1rem;
+        text-align: justify;
+    }
+
+    .about-para-con span {
+        width: 10vw;
+        padding: 0.5rem;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+
+
+    .text-name-bg {
+        font-size: 5rem;
+        letter-spacing: 10px;
+    }
+
+    .text-name-fg,
+    .text-name-dev {
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+
+    .about-img {
+        width: 40%;
+        margin-left: 5rem;
+    }
+
+    .about-para-con {
+        width: 40%;
+        margin-right: 5rem;
+    }
+
+    .about-para-con p,
+    .about-para-con span {
+        margin-left: 2rem;
+        text-align: justify;
+    }
+
+    .about-para-con span {
+        width: 5rem;
+        padding: 0.5rem 1rem;
+    }
+}

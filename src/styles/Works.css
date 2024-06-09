@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+section.works-sec {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #e0e0e0;
+    border: none !important;
+    user-select: none;
+}
+
+.works-sec h1 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.works-con {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    margin: 2rem 0 5rem 0;
+}
+
+.works-card {
+    height: auto;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #d3d3d3;
+}
+
+.works-card img {
+    border-radius: 5px;
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #1d1d1d;
+}
+
+.card-text h5 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    margin: 5px 0 0 5px;
+}
+
+.card-text p {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.6rem;
+    margin: 1px 0 5px 5px;
+}
+
+.card-title a {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+    border: 1px solid rgb(65, 65, 65);
+    color: #1d1d1d;
+    text-decoration: none;
+    padding: 3px 15px;
+    margin: 0 8px;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .works-sec h1 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .works-con {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .works-card {
+        width: 80vw;
+        margin: 1rem 0;
+    }
+
+    .card-text h5 {
+        font-size: 1rem;
+    }
+
+    .card-text p {
+        font-size: 0.8rem;
+    }
+
+    .card-title a {
+        font-size: 0.8rem;
+        padding: 3px 10px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 768px) {
+    .works-sec h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .works-card {
+        width: 70vw;
+        margin: 1rem;
+    }
+
+    .card-text h5 {
+        font-size: 1.3rem;
+    }
+
+    .card-text p {
+        font-size: 1rem;
+    }
+
+    .card-title a {
+        font-size: 1.5rem;
+        padding: 3px 12px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+    .works-sec h1 {
+        font-size: 2.5rem;
+        margin-top: 5rem;
+    }
+
+    .works-card {
+        width: 20rem;
+        margin: 1rem;
+    }
+
+    .card-text h5 {
+        font-size: 0.9rem;
+    }
+
+    .card-text p {
+        font-size: 0.6rem;
+    }
+
+    .card-title a {
+        font-size: 0.7rem;
+        padding: 3px 15px;
+    }
+}

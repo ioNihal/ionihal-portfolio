@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+section.landing-sec {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+}
+
+.landing-text-con {
+    height: auto;
+    width: 90vw;
+    margin: 0.5rem auto 5rem auto;
+}
+
+.text-for-ani,
+.landing-text-con span {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    text-align: left;
+    margin: 0.5rem 0;
+    user-select: none;
+}
+
+.stroke-text {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+}
+
+.main-art {
+    height: 60vh;
+    width: 80vw;
+    margin: 0 auto;
+    object-fit: contain;
+    opacity: 0.8;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+
+    .text-for-ani,
+    .landing-text-con span {
+        font-size: 3rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .landing-text-con {
+        height: auto;
+        width: 90vw;
+        margin: 2rem auto 5rem auto;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 768px) {
+
+    .text-for-ani,
+    .landing-text-con span {
+        font-size: 3.5rem;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+
+    .text-for-ani,
+    .landing-text-con span {
+        font-size: 5rem;
+        text-align: left;
+        width: 90vw;
+    }
+
+    .main-art {
+        height: 60vh;
+        width: 80vw;
+    }
+}

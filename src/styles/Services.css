@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+section.services-sec {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(201, 201, 201);
+    border: none !important;
+}
+
+.services-sec h1 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 10px;
+    margin-top: 5rem;
+    user-select: none;
+}
+
+.services-con {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    width: 90vw;
+    margin: 3rem;
+    user-select: none;
+}
+
+.services-con span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    max-height: 200px;
+    width: 20vw;
+    max-width: 250px;
+    background-color: rgb(224, 221, 221);
+    border-radius: 15px;
+}
+
+.services-con img {
+    width: 70px;
+    height: 70px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin: 5px 0;
+}
+
+.services-con h5 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .services-sec h1 {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        margin-top: 2rem;
+    }
+
+    .services-con {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin: 2rem auto;
+    }
+
+    .services-con span {
+        height: 15vh;
+        max-height: none;
+        width: 40vw;
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    .services-con img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .services-con span h5 {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 768px) {
+    .services-sec h1 {
+        font-size: 2rem;
+        letter-spacing: 7px;
+        margin-top: 3rem;
+    }
+
+    .services-con {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .services-con span {
+        height: 30vh;
+        max-height: 150px;
+        width: 80vw;
+        max-width: 300px;
+    }
+
+    .services-con img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+    .services-sec h1 {
+        font-size: 2.5rem;
+        letter-spacing: 10px;
+        margin-top: 5rem;
+    }
+
+    .services-con {
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .services-con span {
+        height: 35vh;
+        max-height: 200px;
+        width: 20vw;
+        max-width: 250px;
+    }
+
+    .services-con img {
+        width: 70px;
+        height: 70px;
+    }
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: none !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 5px;
+    user-select: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+.header-nav-con {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    cursor: pointer;
+    margin: 0;
+    font-family: 'Staatliches', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.header-nav-con span {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    transition: ease-in-out 0.2s;
+}
+
+.header-nav-con span:hover {
+    transform: translateY(2px) scale(1.05);
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-nav-con {
+        display: none;
+        flex-direction: column;
+        gap: 2vh;
+        width: 100%;
+        align-items: flex-start;
+        margin: 1rem 0;
+    }
+
+    .header-nav-con span {
+        display: block;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+       
+        
+    }
+
+    .header-nav-con {
+        flex-direction: row;
+        gap: 2vw;
+        margin: 0;
+    }
+
+    
+}
+
+@media (min-width: 769px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header-nav-con {
+        flex-direction: row;
+        gap: 5vw;
+        margin: 0;
+    }
+}
