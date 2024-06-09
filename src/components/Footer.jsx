@@ -63,7 +63,7 @@ const Footer = () => {
         <>
             <footer>
                 <div className='footer-sec'>
-                    <img className='mylogo' src='src/assets/myLogoW.png' alt='ioNihal Logo' />
+                    <img className='mylogo' src='/myLogoW.png' alt='ioNihal Logo' />
                     <p>
                         © 2024 ioNihal. All rights reserved.
                         All content on this portfolio, including text, images, graphics,
