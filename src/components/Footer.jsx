@@ -3,11 +3,11 @@ import '../styles/Footer.css';
 
 const Footer = () => {
     const socialIcons = [
-        { id: '0', Name: 'Github', Link: 'src/assets/github.png' },
-        { id: '1', Name: 'Instagram', Link: 'src/assets/instagram.png' },
-        { id: '2', Name: 'Twitter', Link: 'src/assets/twitter.png' },
-        { id: '3', Name: 'DevCom', Link: 'src/assets/devCom.png' },
-        { id: '4', Name: 'LinkedIn', Link: 'src/assets/linkedin.png' },
+        { id: '0', Name: 'Github', Link: '/github.png' },
+        { id: '1', Name: 'Instagram', Link: '/instagram.png' },
+        { id: '2', Name: 'Twitter', Link: '/twitter.png' },
+        { id: '3', Name: 'DevCom', Link: '/devCom.png' },
+        { id: '4', Name: 'LinkedIn', Link: '/linkedin.png' },
     ]
 
     const footerNavLinks = [
