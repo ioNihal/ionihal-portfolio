@@ -32,7 +32,7 @@ const Footer = () => {
             document.getElementById('works').scrollIntoView({ behavior: 'smooth' });
         }
         else if (scrollLoc === 'CONTACT') {
-            document.getElementById('works').scrollIntoView({ behavior: 'smooth' });
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
         }
 
         else console.log('Error scrolling');
