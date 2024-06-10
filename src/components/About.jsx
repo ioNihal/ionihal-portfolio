@@ -3,7 +3,7 @@ import '../styles/About.css';
 
 function About() {
 
-    const myPotrait = '/nihalPortrait.png'
+    const myPotrait = 'images/nihalPortrait.png'
     return (
         <>
             <section className='about-sec' id='about'>

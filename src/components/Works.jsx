@@ -5,28 +5,28 @@ function Works() {
     const myProjects = [
         {
             id: '0',
-            workMockup: '/gameCom.png',
+            workMockup: 'images/gameCom.png',
             workTitle: 'GameCom',
             workDesc: 'GameCom is a Website built on ReactJS for a SA-MP gaming community',
             workLink: 'https://gamecom-react.vercel.app'
         },
         {
             id: '1',
-            workMockup: '/gameCom.png',
+            workMockup: 'images/gameCom.png',
             workTitle: 'GameCom',
             workDesc: 'GameCom is a Website built on ReactJS for a SA-MP gaming community',
             workLink: 'https://gamecom-react.vercel.app'
         },
         {
             id: '2',
-            workMockup: '/gameCom.png',
+            workMockup: 'images/gameCom.png',
             workTitle: 'GameCom',
             workDesc: 'GameCom is a Website built on ReactJS for a SA-MP gaming community',
             workLink: 'https://gamecom-react.vercel.app'
         },
         {
             id: '3',
-            workMockup: '/gameCom.png',
+            workMockup: 'images/gameCom.png',
             workTitle: 'GameCom',
             workDesc: 'GameCom is a Website built on ReactJS for a SA-MP gaming community',
             workLink: 'https://gamecom-react.vercel.app'

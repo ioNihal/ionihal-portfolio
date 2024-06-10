@@ -3,11 +3,11 @@ import '../styles/Footer.css';
 
 const Footer = () => {
     const socialIcons = [
-        { id: '0', Name: 'Github', Link: '/github.png' },
-        { id: '1', Name: 'Instagram', Link: '/instagram.png' },
-        { id: '2', Name: 'Twitter', Link: '/twitter.png' },
-        { id: '3', Name: 'DevCom', Link: '/devCom.png' },
-        { id: '4', Name: 'LinkedIn', Link: '/linkedin.png' },
+        { id: '0', Name: 'Github', Link: 'images/github.png' },
+        { id: '1', Name: 'Instagram', Link: 'images/instagram.png' },
+        { id: '2', Name: 'Twitter', Link: 'images/twitter.png' },
+        { id: '3', Name: 'DevCom', Link: 'images/devCom.png' },
+        { id: '4', Name: 'LinkedIn', Link: 'images/linkedin.png' },
     ]
 
     const footerNavLinks = [
@@ -63,7 +63,8 @@ const Footer = () => {
         <>
             <footer>
                 <div className='footer-sec'>
-                    <img className='mylogo' src='/myLogoW.png' alt='ioNihal Logo' />
+                    <img className='mylogo' src='images/myLogoW.png' alt='ioNihal Logo' />
+
                     <p>
                         © 2024 ioNihal. All rights reserved.
                         All content on this portfolio, including text, images, graphics,

@@ -3,10 +3,10 @@ import '../styles/Services.css'
 
 function Services() {
     const icons = {
-        webDev: '/coding.png',
-        videoEditor: '/videoEditor.png',
-        gfxDesign: '/gfxDesign.png',
-        photoEditor: '/photoEditing.png'
+        webDev: 'images/coding.png',
+        videoEditor: 'images/videoEditor.png',
+        gfxDesign: 'images/gfxDesign.png',
+        photoEditor: 'images/photoEditing.png'
     }
 
 
