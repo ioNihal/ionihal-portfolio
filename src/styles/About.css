@@ -101,11 +101,20 @@ section.about-sec {
 
 .about-para-con span {
     background-color: black;
+    display: grid;
+    place-items: center;
     color: white;
     text-align: center;
     width: 5rem;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
     cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.about-para-con span:hover {
+    transform: scale(1.05);
+    border-bottom-right-radius: 10px;
+    
 }
 
 /* Mobile styles */
