@@ -67,6 +67,7 @@ footer {
     flex-direction: row;
     gap: 1rem;
     cursor: pointer;
+    user-select: none;
 }
 
 .footer-nav-links {

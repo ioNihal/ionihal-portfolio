@@ -24,7 +24,9 @@ function About() {
                             pursuing a Bachelor's degree in Computer Applications.
                             I enjoy coding and creating designs in the form of web, graphics, and video.
                         </p>
-                        <span>HIRE ME</span>
+                        <span className='hire-me'
+                            onClick={() => window.location.href = 'mailto:nihal04x@gmail.com'}>
+                            HIRE ME</span>
                     </div>
                 </div>
             </section>
