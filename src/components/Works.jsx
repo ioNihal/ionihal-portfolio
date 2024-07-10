@@ -12,10 +12,10 @@ function Works() {
         },
         {
             id: '1',
-            workMockup: 'images/gameCom.png',
-            workTitle: 'GameCom',
-            workDesc: 'GameCom is a Website built on ReactJS for a SA-MP gaming community',
-            workLink: 'https://gamecom-react.vercel.app'
+            workMockup: 'images/lyricsProject.jpg',
+            workTitle: 'Project Lyrics',
+            workDesc: 'Project Lyrics has 3 preloaded song which users can play and control',
+            workLink: 'lyrics.ionihal.xyz'
         },
         {
             id: '2',
