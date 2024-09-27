@@ -15,7 +15,7 @@ function Works() {
             workMockup: 'images/lyricsProject.jpg',
             workTitle: 'Project Lyrics',
             workDesc: 'Project Lyrics has 3 preloaded song which users can play and control',
-            workLink: 'lyrics.ionihal.xyz'
+            workLink: 'https://lyrics.ionihal.xyz'
         },
         {
             id: '2',
