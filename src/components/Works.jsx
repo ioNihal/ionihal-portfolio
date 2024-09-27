@@ -48,7 +48,7 @@ function Works() {
                                             <h5>{project.workTitle}</h5>
                                             <p>{project.workDesc}</p>
                                         </div>
-                                        <a href={project.workLink}>VIEW</a>
+                                        <a href={project.workLink} target='_blank'>VIEW</a>
                                     </div>
                                 </div>
                             )
