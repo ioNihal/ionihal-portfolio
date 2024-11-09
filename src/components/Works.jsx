@@ -20,16 +20,16 @@ function Works() {
         {
             id: '2',
             workMockup: 'images/gameCom.png',
-            workTitle: 'GameCom',
-            workDesc: 'GameCom is a Website built on ReactJS for a SA-MP gaming community',
-            workLink: 'https://gamecom-react.vercel.app'
+            workTitle: 'Project Pixels',
+            workDesc: 'Pixels is an art inspired webpage built using Vanilla JS, HTML, CSS',
+            workLink: 'https://ionihal.github.io/Pixels-art'
         },
         {
             id: '3',
             workMockup: 'images/gameCom.png',
-            workTitle: 'GameCom',
-            workDesc: 'GameCom is a Website built on ReactJS for a SA-MP gaming community',
-            workLink: 'https://gamecom-react.vercel.app'
+            workTitle: 'Splitter',
+            workDesc: 'Splitter is a Website built on ReactJS for calculating and splitting group expenses',
+            workLink: 'https://budget-splitter.vercel.app'
         },
 
     ]
