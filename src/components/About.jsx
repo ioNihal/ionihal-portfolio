@@ -7,11 +7,11 @@ function About() {
     return (
         <>
             <section className='about-sec' id='about'>
-                <div className='about-name-con'>
+                {/*<div className='about-name-con'>
                     <h1 className='text-name-bg'>NIHAL K</h1>
                     <h1 className='text-name-fg'>NIHAL K</h1>
                     <h1 className='text-name-dev'>WEB DEVELOPER</h1>
-                </div>
+                </div>*/}
                 <div className='about-img-con'>
                     <img className='about-img' src={myPotrait} alt='My Portrait' />
                     <div className='about-para-con'>

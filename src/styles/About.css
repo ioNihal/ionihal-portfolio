@@ -8,6 +8,8 @@ section.about-sec {
     grid-column-start: 1;
     grid-column-end: 2;
     border: none !important;
+    
+    height: auto;
 }
 
 .about-name-con {
@@ -64,7 +66,7 @@ section.about-sec {
 }
 
 .about-img-con {
-    height: auto;
+    height: 100vh;
     width: 90vw;
     margin: 3rem auto;
     display: flex;
@@ -74,15 +76,17 @@ section.about-sec {
 }
 
 .about-img {
-    height: 100%;
-    width: 40%;
+    height: 60vh;
+    min-height: 300px;
+    min-width: 100px;
+    width: 40vw;
     object-fit: cover;
     margin-left: 5rem;
 }
 
 .about-para-con {
-    height: 100%;
-    width: 40%;
+    height: auto;
+    width: auto;
     margin-right: 5rem;
     display: flex;
     flex-direction: column;

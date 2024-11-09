@@ -1,0 +1,21 @@
+.arrow-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    transition: transform ease-in-out 0.2s;
+}
+
+.arrow-btn:hover {
+    transform: scale(1.1);
+}

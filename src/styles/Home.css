@@ -19,13 +19,13 @@ section.landing-sec {
     margin: 0.5rem auto 5rem auto;
 }
 
-.text-for-ani,
+
 .landing-text-con span {
     font-family: 'Staatliches';
     font-style: normal;
     font-weight: 400;
     font-size: 5rem;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     text-align: left;
     margin: 0.5rem 0;
     user-select: none;
@@ -36,18 +36,12 @@ section.landing-sec {
     color: transparent;
 }
 
-.main-art {
-    height: 60vh;
-    width: 80vw;
-    margin: 0 auto;
-    object-fit: contain;
-    opacity: 0.8;
-}
+
 
 /* Mobile styles */
 @media (max-width: 600px) {
 
-    .text-for-ani,
+    
     .landing-text-con span {
         letter-spacing: 2px;
         font-size: 2rem;
@@ -65,7 +59,7 @@ section.landing-sec {
 /* Tablet styles */
 @media (min-width: 601px) and (max-width: 768px) {
 
-    .text-for-ani,
+    
     .landing-text-con span {
         font-size: 3.5rem;
         text-align: center;
@@ -77,15 +71,17 @@ section.landing-sec {
 /* Desktop styles */
 @media (min-width: 769px) {
 
-    .text-for-ani,
+    .landing-text-con {
+        margin: 5vh auto 5vw auto;
+    }
     .landing-text-con span {
-        font-size: 5rem;
+        font-size: 7rem;
         text-align: left;
         width: 90vw;
+
+        
+        
     }
 
-    .main-art {
-        height: 60vh;
-        width: 80vw;
-    }
+
 }
