@@ -53,7 +53,7 @@ const ArrowScroll = ({ sectionIds }) => {
             className="arrow-btn"
             title={isBottom ? "Scroll to top" : "Scroll to next section"}
         >
-            {isBottom ? <FaArrowUp /> : <FaArrowDown />}
+            {isBottom ? <FaArrowUp size={30}/> : <FaArrowDown size={30} />}
         </button>
     );
 };
