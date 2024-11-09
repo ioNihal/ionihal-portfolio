@@ -56,7 +56,7 @@ function Works() {
             <section className='works-sec' id='works'>
                 <h1>MY PROJECTS</h1>
                 <div className='works-con'>
-                    if(projects) {
+                    {/*
                         projects.map(project => {
                             return (
                                 <div key={project._id} className='works-card'>
@@ -71,8 +71,8 @@ function Works() {
                                 </div>
                             )
                         })
-                    }
-                    else {
+                    */}
+                    {
                         myProjects.map(project => {
                             return (
                                 <div key={project.id} className='works-card'>
@@ -87,7 +87,7 @@ function Works() {
                                 </div>
                             )
                         })
-                    } 
+                    }
                 </div>
             </section>
         </>
