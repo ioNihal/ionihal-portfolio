@@ -169,6 +169,11 @@ section.works-sec {
         margin: 1rem;
     }
 
+    .works-card img {
+    height: 40vh;
+   
+}
+
     .card-text h5 {
         font-size: 0.9rem;
     }
