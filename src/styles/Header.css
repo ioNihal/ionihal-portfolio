@@ -54,6 +54,11 @@ header h1 {
         align-items: flex-start;
     }
 
+    header h1 {
+        text-align: center;
+        margin: auto auto;
+    }
+
     .header-nav-con {
         display: none;
         flex-direction: column;
