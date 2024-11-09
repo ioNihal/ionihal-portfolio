@@ -146,6 +146,7 @@ section.about-sec {
     .about-img-con {
         margin: 0.5rem auto 3rem auto;
         flex-direction: column;
+        height: auto;
     }
 
     .about-img {
