@@ -16,7 +16,7 @@ function Home() {
                     <span>I am a <TextAni
                         texts={
                             [
-                                "WEB DEVELOPER",
+                                
                                 "WEB DESIGNER",
                                 "GFX DESIGNER",
                                 "PHOTO EDITOR",
