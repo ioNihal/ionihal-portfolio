@@ -1,0 +1,29 @@
+
+.admin-dashboard {
+    padding: 20px;
+}
+
+.add-project, .project-list {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item a {
+    display: inline-block;
+    margin-top: 10px;
+}
