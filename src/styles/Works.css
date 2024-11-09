@@ -40,7 +40,8 @@ section.works-sec {
 
 .works-card img {
     border-radius: 5px;
-    height: 80%;
+    min-height: 200px;
+    min-width: 150px;
     width: 100%;
     object-fit: cover;
 }
@@ -49,6 +50,9 @@ section.works-sec {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: auto;
+    margin: 5px 0;
+
 }
 
 .card-text {
@@ -56,6 +60,7 @@ section.works-sec {
     flex-direction: column;
     justify-content: space-around;
     color: #1d1d1d;
+    
 }
 
 .card-text h5 {
@@ -132,6 +137,11 @@ section.works-sec {
         margin: 1rem;
     }
 
+    .works-card img {
+        height: 300px;
+        width: 100%;
+    }
+
     .card-text h5 {
         font-size: 1.3rem;
     }
@@ -154,7 +164,8 @@ section.works-sec {
     }
 
     .works-card {
-        width: 20rem;
+       
+        width: 20vw;
         margin: 1rem;
     }
 
@@ -164,6 +175,10 @@ section.works-sec {
 
     .card-text p {
         font-size: 0.6rem;
+    }
+
+    .card-title {
+        height: auto;
     }
 
     .card-title a {
