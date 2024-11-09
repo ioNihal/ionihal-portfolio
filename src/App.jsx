@@ -1,4 +1,6 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Admin from './backend/Admin'; 
+
 import MainBody from './components/MainBody'
 import { createGlobalStyle } from 'styled-components'
 
@@ -19,6 +21,12 @@ function App() {
     <>
       <GlobalStyle />
       <MainBody />
+      <Router>
+      <Routes>
+        {/* Define the route to admin page */}
+        <Route path="/backend/Admin" element={<Admin />} />
+      </Routes>
+    </Router>
     </>
   )
 }
