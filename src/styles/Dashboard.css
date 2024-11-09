@@ -1,10 +1,31 @@
 
 .admin-dashboard {
-    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.admin-dashboard h1 {
+    margin: 2rem 0 2rem 3rem;
 }
 
 .add-project, .project-list {
-    margin-bottom: 20px;
+    margin: 2rem auto;
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.add-project form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    gap: 2rem;
 }
 
 button {

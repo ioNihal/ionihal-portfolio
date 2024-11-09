@@ -40,8 +40,9 @@ function Works() {
         // Fetch projects from the backend
         const fetchProjects = async () => {
             try {
-                const response = await fetch('/api/projects');
+                const response = await fetch('api/projects');
                 const data = await response.json();
+                console.log(response);
                 setProjects(data);
             } catch (error) {
                 console.error("Failed to fetch projects:", error);
