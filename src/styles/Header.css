@@ -21,7 +21,7 @@ header h1 {
     letter-spacing: 5px;
     user-select: none;
     cursor: pointer;
-    margin: 0 2rem 0 0;
+    margin: 0;
 }
 
 .header-nav-con {
@@ -29,7 +29,7 @@ header h1 {
     flex-direction: row;
     gap: 5vw;
     cursor: pointer;
-    margin: 0 0 0 2rem;
+    margin: 0;
     font-family: 'Staatliches', sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -93,9 +93,13 @@ header h1 {
         align-items: center;
     }
 
+    header h1 {
+        margin: 0 2rem 0 0;
+    }
+
     .header-nav-con {
         flex-direction: row;
         gap: 5vw;
-        margin: 0;
+        margin: 0 0 0 2rem;
     }
 }
