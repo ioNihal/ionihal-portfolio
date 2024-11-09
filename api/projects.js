@@ -1,5 +1,9 @@
 
-import { connect, Schema, model, connection } from 'mongoose';
+import mongoose from 'mongoose'; // Use default import
+
+
+const { connect, Schema, model, connection } = mongoose;
+
 import cors from 'cors';
 import bodyParser from 'body-parser';
 
