@@ -19,14 +19,14 @@ function Works() {
         },
         {
             id: '2',
-            workMockup: 'images/gameCom.png',
+            workMockup: 'images/pixels.png',
             workTitle: 'Project Pixels',
             workDesc: 'Pixels is an art inspired webpage built using Vanilla JS, HTML, CSS',
             workLink: 'https://ionihal.github.io/Pixels-art'
         },
         {
             id: '3',
-            workMockup: 'images/gameCom.png',
+            workMockup: 'images/splitter.png',
             workTitle: 'Splitter',
             workDesc: 'Splitter is a Website built on ReactJS for calculating and splitting group expenses',
             workLink: 'https://budget-splitter.vercel.app'
