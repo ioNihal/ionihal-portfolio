@@ -29,7 +29,7 @@ header h1 {
     flex-direction: row;
     gap: 5vw;
     cursor: pointer;
-    margin: 0;
+    margin: 0 2rem 0 0;
     font-family: 'Staatliches', sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
