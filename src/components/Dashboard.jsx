@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import AddWork from './components/admin/AddWork';
-import WorkList from './components/admin/WorkList';
-import './styles/Dashboard.css'
+import AddWork from './admin/AddWork';
+import WorkList from './admin/WorkList';
+import '../styles/Dashboard.css'
 
 function Dashboard() {
     const [projects, setProjects] = useState([]);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Updated import for v6
 import MainBody from './components/MainBody';  // Main body for the homepage
-import Dashboard from './Dashboard';  // Admin dashboard page
+import Dashboard from './components/Dashboard';  // Admin dashboard page
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
