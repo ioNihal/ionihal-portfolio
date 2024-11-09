@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Updated import for v6
-import MainBody from './components/MainBody';  // Main body for the homepage
-import Dashboard from './components/Dashboard';  // Admin dashboard page
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
+import MainBody from './components/MainBody';  
+import Dashboard from './components/Dashboard'; 
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -21,10 +21,10 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
-      <Routes>  {/* Use Routes instead of Switch */}
-        {/* Define routes */}
-        <Route path="/" element={<MainBody />} />  {/* Main Body of the app */}
-        <Route path="/dashboard" element={<Dashboard />} />  {/* Admin Dashboard */}
+      <Routes>  
+        
+        <Route path="/" element={<MainBody />} /> 
+        {/*<Route path="/dashboard" element={<Dashboard />} />*/} 
       </Routes>
     </Router>
   );

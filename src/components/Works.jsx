@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/Works.css';
 
 function Works() {
-    const [projects, setProjects] = useState([]);
+    //const [projects, setProjects] = useState([]);
 
     const myProjects = [
         {
@@ -36,7 +36,7 @@ function Works() {
 
     ];
 
-    useEffect(() => {
+    /*useEffect(() => {
         // Fetch projects from the backend
         const fetchProjects = async () => {
             try {
@@ -50,14 +50,14 @@ function Works() {
         };
 
         fetchProjects();
-    }, []);
+    }, []);*/
 
     return (
         <>
             <section className='works-sec' id='works'>
                 <h1>MY PROJECTS</h1>
                 <div className='works-con'>
-                    {
+                    {/*
                         projects.map(project => {
                             return (
                                 <div key={project._id} className='works-card'>
@@ -72,8 +72,8 @@ function Works() {
                                 </div>
                             )
                         })
-                    }
-                    {/*
+                    */}
+                    {
                         myProjects.map(project => {
                             return (
                                 <div key={project.id} className='works-card'>
@@ -88,7 +88,7 @@ function Works() {
                                 </div>
                             )
                         })
-                    */}
+                    }
                 </div>
             </section>
         </>
