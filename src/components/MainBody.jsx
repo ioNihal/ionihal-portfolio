@@ -1,5 +1,5 @@
 import React from "react";
-import { Analytics } from '@vercel/analytics/react';
+
 import '../styles/MainBody.css';
 
 import Header from "./Header"
@@ -25,7 +25,6 @@ function MainBody() {
       <Contact />
       <Footer />
       <ArrowScroll sectionIds={sections} />
-      <Analytics />
     </div>
   )
 }
