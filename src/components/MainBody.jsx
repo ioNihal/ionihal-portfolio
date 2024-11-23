@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
 import '../styles/MainBody.css';
 
 import Header from "./Header"
@@ -12,7 +13,7 @@ import ArrowScroll from "./ArrowScroll";
 
 function MainBody() {
 
-  const sections = ["home", "about", "services", "works", "contact" ];
+  const sections = ["home", "about", "services", "works", "contact"];
 
   return (
     <div className="main-body">
@@ -24,6 +25,7 @@ function MainBody() {
       <Contact />
       <Footer />
       <ArrowScroll sectionIds={sections} />
+      <Analytics />
     </div>
   )
 }

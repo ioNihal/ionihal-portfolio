@@ -21,8 +21,7 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
-      <Routes>  
-        
+      <Routes> 
         <Route path="/" element={<MainBody />} /> 
         {/*<Route path="/dashboard" element={<Dashboard />} />*/} 
       </Routes>
