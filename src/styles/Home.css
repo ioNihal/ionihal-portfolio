@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+78@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 section.landing-sec {
@@ -75,7 +75,7 @@ section.landing-sec {
         margin: 5vh auto 5vw auto;
     }
     .landing-text-con span {
-        font-size: 5rem;
+        font-size: 4.5rem;
         text-align: left;
     }
 
